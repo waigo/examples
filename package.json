@@ -1,0 +1,29 @@
+{
+  "name": "waigo-examples",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Examples using the Waigo framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waigo/examples.git"
+  },
+  "keywords": [
+    "waigo",
+    "examples"
+  ],
+  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waigo/examples/issues"
+  },
+  "homepage": "https://github.com/waigo/examples",
+  "dependencies": {
+    "co": "^3.0.6",
+    "co-busboy": "^1.0.2",
+    "waigo": "^1.1.2"
+  }
+}

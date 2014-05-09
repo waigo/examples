@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Upload
+    style.
+      .result {
+        font-weight: bold;
+      }
+      .result span {
+        padding-right: 0.5em;
+      }
+  body
+    h1 Multi-part file upload
+
+    if fileNames
+      div.result
+        div Files uploaded: 
+        each destPath, fileName in fileNames
+          div #{fileName} -> #{destPath}
+
+    p Try uploading multiple files at a time
+
+    form(method="post", enctype="multipart/form-data")
+      input(name="file", type="file", multiple)
+      input(type="submit", value="Upload")
