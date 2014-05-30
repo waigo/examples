@@ -1,19 +1,10 @@
 # Waigo Examples
 
-A repository containing examples to illustrate the use of the [Waigo](http://waigojs.com) web framework.
+A repository containing examples to illustrate the use of the 
+[Waigo](http://waigojs.com) web framework. Each example folder contains a 
+README with further explanation where necessary.
 
-## Included Examples
-
-_Note: Run each example using `node --harmony index.js` in the example's folder_
-
- - [hello-world](hello-world) - hello world
- - [upload](upload) - multi-file uploading
-
-## Projects using waigo
-
-_These are full open source projects built on Waigo_
-
- - [melkor](https://github.com/hiddentao/melkor) - Git-backed wiki engine.
+These examples are also viewable at [waigojs.com/examples/](http://waigojs.com/examples/).
 
 ## License
 
